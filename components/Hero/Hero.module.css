@@ -1,0 +1,67 @@
+@import url("https://fonts.googleapis.com/css2?family=Playfair+Display&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Anek+Odia:wght@200;300&family=Nanum+Gothic&display=swap");
+
+.heroContainer {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.heroTop {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: row; 
+  gap: 3rem;
+}
+
+.heroText {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+
+.heroH1 {
+  font-family: "Playfair Display", serif;
+  font-size: 4rem;
+  text-align: left;
+  color: #1e1f1d;
+}
+
+.heroP {
+  font-family: "Anek Odia", sans-serif;
+  text-align: left;
+  font-size: 1.4rem;
+  margin-top: -20px;
+  margin-left: -8rem;
+  color: #1e1f1d;
+}
+
+@media only screen and (max-width: 1024px) {
+  .heroTop{
+    display: flex;
+    flex-direction: column;
+    
+  }
+
+  .heroText{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    gap: 2rem;
+  }
+  .heroH1{
+    font-size: 3rem;
+    text-align: center;
+
+  }
+
+  .heroP{
+    text-align: center;
+    margin-left: 0px;
+    padding-left: 2rem;
+    padding-right: 2rem;
+  }
+}

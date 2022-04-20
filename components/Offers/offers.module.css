@@ -1,0 +1,62 @@
+.offersContainer {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+    gap: 2rem;
+    padding: 4rem;
+}
+
+.cardd{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    padding: 3rem;
+    background-color: rgba(0, 0, 0, 0.37);
+    border-radius: 25px;
+    gap: 2rem;
+}
+
+.offersH3{
+    text-align: center;
+    font-size: 2rem;
+  font-family: "Playfair Display", serif;
+  color: #1e1f1d;
+}
+
+
+.butt{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 1rem;
+}
+
+.buttin{
+    background: none;
+    cursor: pointer;
+    outline: 0;
+    border-width: 0 0 0px;
+    border-color: #2d2e2b;
+    font-size: 1.2rem;
+    transition: 0.5s;
+}
+
+.buttin:hover{
+    border-width: 0 0 .7px;
+}
+
+@media only screen and (max-width: 1024px) {
+    
+    .offersContainer{
+        flex-direction: column;
+        padding: 1rem;
+    }
+    .cardd{
+        padding: 5rem;
+    }
+    .buttin{
+        font-size: 1.6rem;
+    }
+ }

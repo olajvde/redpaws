@@ -1,0 +1,87 @@
+.codeContainer {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.opaque {
+  width: 85vw;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: center;
+  background-color: rgba(0, 0, 0, 0.37);
+  border-radius: 25px;
+  padding: 4.5rem;
+  gap: 4rem;
+  color: black;
+  
+}
+
+.codeH1 {
+  font-size: 3rem;
+  text-align: left;
+  font-family: "Playfair Display", serif;
+  color: #1e1f1d;
+}
+
+.codeP {
+  font-family: "Anek Odia", sans-serif;
+  text-align: left;
+  font-size: 1.1rem;
+  color: #1e1f1d;
+}
+
+.cards {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    gap: 1rem;
+}
+
+.codeCard{
+    background-color: rgba(247,247,247,1);
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+    gap: 2rem;
+    border-radius: 25px;
+    font-size: 1rem;
+    font-family: "Anek Odia", sans-serif;
+    color: #1e1f1d;
+    padding-left: 3.5rem; 
+    padding-right: 3.5rem;
+    transition: .5s;
+   
+  }
+
+  @media only screen and (max-width: 1024px) {
+    .opaque{
+      flex-direction: column;
+      padding: 2rem;
+    }
+
+    .codeH1{
+      font-size: 2.2rem;
+      text-align: center;
+    }
+
+    .codeP{
+      font-size: 1.3rem;
+      text-align: center;
+    }
+
+    .codeCard{
+      flex-direction: column;
+      gap: 1rem;
+      padding-left: 1.6rem;
+      padding-right: 1.6rem;
+    }
+
+    .codeCard p{
+      text-align: center;
+      font-size: 1.2rem;
+    }
+ }
